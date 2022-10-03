@@ -1,0 +1,15 @@
+.font1 {
+    font-size: var(--font-1);
+}
+
+.font2 {
+    font-size: var(--font-2);
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.medium {
+    font-weight: 500;
+}

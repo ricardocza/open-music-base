@@ -1,0 +1,39 @@
+.body-dark {
+    background-color: var(--color-grey-0);
+    color: var(--color-grey-8);
+}
+
+.body-dark h2 {
+    color: var(--color-grey-4);
+}
+
+.slider-dark {
+    background-color: var(--color-grey-1);
+}
+
+.button-dark {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-3);
+}
+
+.button-dark:hover {
+    background-color: var(--color-grey-0);
+}
+
+.button-dark-selected {
+    border: 1px solid var(--color-grey-9);
+    color: var(--color-grey-9);
+    background-color: var(--color-grey-2);
+}
+.button-buy-dark{
+    background-color: var(--color-grey-2);
+    color: var(--color-grey-5);
+}
+
+.card-backgroud-dark {
+    background-color: var(--color-grey-1);
+}
+
+.card-backgroud-dark .band-info {
+    color: var(--color-grey-3);
+}

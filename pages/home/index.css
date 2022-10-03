@@ -1,1 +1,18 @@
-/* Desenvolva sua estilização aqui ... */
+.list-item {
+    width: 90%;
+    max-width: 18rem;   
+    background-color: var(--color-grey-8); 
+}
+
+.list-item picture {
+    overflow: hidden;
+
+}
+
+.list-item picture img {
+    width: 100%;
+}
+
+.info-album {
+    margin: 1.25rem 1rem;
+}

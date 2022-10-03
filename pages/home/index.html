@@ -4,12 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/globalStyles.css" />
+    <link rel="stylesheet" href="../../styles/flex.css" />
+    <link rel="stylesheet" href="../../styles/fonts.css" />
+    <link rel="stylesheet" href="../../styles/spacings.css" />
+    <link rel="stylesheet" href="../../styles/buttons.css" />
+    <link rel="stylesheet" href="../../styles/inputs.css" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="../../styles/darkMode.css" />
     <title>Open Music</title>
   </head>
-  <body>
-    <main></main>
+  <body class="container">
+    <main class="flex flex-column gap5">
+      <header class="flex justify-space-between">
+        <h1>open music</h1>
+        <button class="dark-mode-button">
+          <img class="toggle-theme-img" src="../../assets/img/moon.png" alt="Icone para alternar entre dark mode e light mode">
+        </button>
+      </header>
+
+      <section class="filter-genre flex flex-column gap1">
+        <h2 class="font2">Gênero Musical</h2>
+        <ul class="flex wrap gap1">
+          <button class="button-selected">Todos</button>
+          <button>Pop</button>
+          <button>MPB</button>
+          <button>Forró</button>
+          <button>Samba</button>
+          <button>Baião</button>
+          <button>Rap</button>
+          <button>Hip-Hop</button>
+          <button>Rock</button>
+          <button>Reggae</button>
+          <button>Coutry</button>
+          <button>Gospel</button>
+        </ul>
+      </section>
+
+      <section class="flex flex-column gap1">
+        <div class="flex justify-space-between">
+          <h2 class="font2 semi-bold">Definir preço</h2>
+          <p class="font2 medium">Até R$ 500</p>
+        </div>
+        <input class="slider" type="range" name="slider" id="slider" min="0" max="500">
+      </section>
+
+      <section class="flex flex-column gap1">
+        <h2 class="font2">Albums Encontrados</h2>
+        <ul class="list-cards flex justify-space-between wrap gap5">
+          <li class="list-item flex flex-column margin-auto b-radius">
+            <picture class="b-radius">
+              <img src="../../assets/img/1.jpg" alt="">
+            </picture>
+            <div class="info-album flex flex-column gap1">
+              <div class="band-info flex gap1">
+                <p>Banda</p>
+                <p>1969</p>
+              </div>
+              <h3>Magnetite</h3>
+              <div class="flex justify-space-between">
+                <p>R$ 70,00</p>
+                <button class="button-buy">Comprar</button>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </section>
+    </main>
     <script src="../../scripts/theme.js"></script>
     <script src="productsData.js"></script>
     <script src="index.js"></script>
