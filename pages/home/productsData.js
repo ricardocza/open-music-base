@@ -1,4 +1,4 @@
-export const products = [
+const products = [
   {
     title: "Magnetite",
     category: 1,
@@ -37,7 +37,7 @@ export const products = [
   },
 ];
 
-export const categories = [
+const categories = [
   "Todos",
   "Pop",
   "MPB",
