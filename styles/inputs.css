@@ -1,6 +1,3 @@
-input {
-}
-
 .slider {
     appearance: none;
     background: linear-gradient(to right, var(--color-brand-1) 0%, var(--color-brand-1) 50%, var(--color-grey-5) 50%, var(--color-grey-5) 100%);
