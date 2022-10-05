@@ -45,14 +45,14 @@ function renderCards(arrObj) {
         divInfoAlbum.classList = 'info-album flex flex-column gap1'
         divInfoBand.classList = 'band-info flex gap1'
         pBandName.innerText = obj.band
-        pBandName.classList = 'colorText1'
+        pBandName.classList = 'color-text1'
         pBandYear.innerText = obj.year
-        pBandYear.classList = 'colorText1'
+        pBandYear.classList = 'color-text1'
         titleBand.innerText = obj.title
-        titleBand.classList = 'colorTitle2'
+        titleBand.classList = 'color-title2'
         footer.classList = 'flex justify-space-between'
         price.innerText = obj.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
-        price.classList = 'colorTitle2'
+        price.classList = 'color-title2'
         buttonBuy.classList = 'button-buy'
         buttonBuy.innerText = 'Comprar'
 

@@ -1,34 +1,40 @@
-.body-dark {
-    background-color: var(--color-grey-0);
-    color: var(--color-grey-8);
+.dark-mode h1 {
+    color: var(--color-grey-1);
 }
 
-.body-dark h2 {
-    color: var(--color-grey-4);
-}
-
-.slider-dark {
-    background-color: var(--color-grey-1);
-}
-
-.button-dark:hover {
-    background-color: var(--color-grey-0);
-}
-
-.button-dark-selected {
-    border: 1px solid var(--color-grey-9);
-    color: var(--color-grey-9);
-    background-color: var(--color-grey-2);
-}
-.button-buy-dark{
-    background-color: var(--color-grey-2);
+.dark-mode h2 {
     color: var(--color-grey-5);
 }
 
-.card-backgroud-dark {
-    background-color: var(--color-grey-1);
+
+.dark-mode button {
+    color: var(--color-grey-6);
+    background-color: var(--color-grey-8);
 }
 
-.card-backgroud-dark .band-info {
-    color: var(--color-grey-3);
+.dark-mode button:hover {
+    background-color: var(--color-grey-7);
+}
+
+.dark-mode .button-selected {
+    background-color: var(--color-grey-7);
+    border: 1px solid var(--color-grey-2);
+    color: var(--color-grey-2);
+}
+
+.dark-mode .button-selected:hover {
+    background-color: var(--color-grey-8);
+}
+
+.dark-mode .button-buy {
+    background-color: var(--color-grey-7);
+    color: var(--color-grey-4);
+}
+
+.dark-mode .color-title2 {
+    color: var(--color-grey-1);
+}
+
+.dark-mode .color-text1 {
+    color: var(--color-grey-6);
 }

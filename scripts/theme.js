@@ -7,7 +7,6 @@ function darkMode() {
         dmImg.classList.toggle('sun')
         
         if(dmImg.classList.contains('sun')) {
-            console.log(dmImg)
             dmImg.src = '../../assets/img/sun.png'
         } else dmImg.src = '../../assets/img/moon.png'
     })
