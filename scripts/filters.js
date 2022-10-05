@@ -21,4 +21,5 @@ inputRange.addEventListener('mousemove', () => {
     const currentGenre = document.querySelector('.button-selected').innerText
     label.innerText = `Até R$ ${inputValue}`
     filterCards(currentGenre)
+    sliderStyle()
 })
